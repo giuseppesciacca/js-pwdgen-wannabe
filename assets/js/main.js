@@ -10,6 +10,4 @@ let surname = prompt('Inserisci il tuo cognome qui:');
 let color = prompt('Quale è il tuo colore preferito?');
 
 let result = document.getElementById('name_surname_color');
-result.innerHTML = `${names}${surname}${color}`;
-
-
+result.innerHTML = `${names}${surname}${color}23`;
