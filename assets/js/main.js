@@ -13,8 +13,6 @@ let color = prompt('Quale è il tuo colore preferito?');
 
 let result = document.getElementById('name_surname_color');
 
-result.innerHTML = `${name + surname + color}`;
-
-
+result.innerHTML = `${name}${surname}${color}`;
 
 
